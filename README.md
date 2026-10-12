@@ -27,13 +27,17 @@ An example project that provides several Model-Context-Protocol implmenetations 
 ## Usage
 Start a chat with the Tool enabled model
 Try some prompts like:
+
 `I'm hungry for something with chicken, can you suggest anything?`
 
 Next find one of the suggestions and ask the model to provide recipe details:
+
 `Ooo... {selected recipe name} sounds interesting.  How do I make that?`
 
 To exercise `No as a Service` try:
+
 `I really don't want to do all that cooking.  Help me create a reason to refuse`
 
 You can also ask it to provide a random recipe:
+
 `I don't care what I eat, just give me a random recipe and details on how to make it.`
