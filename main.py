@@ -48,13 +48,13 @@ async def get_meal_details(id: int) -> Recipe:
 @mcp.tool(
     name="get_random_meal",
     description="""
-    This tool will find a random meal.  
+    This tool will find a random meal. The context is kind of useless but required so feel free to provide any value.  
     It is useful whenever the user asks for meal ideas but doesn't have a specific ingredient in mind.  
     """
 )
-async def get_random_meal(description: str) -> Recipe:
+async def get_random_meal(context: str) -> Recipe:
     """
-    This tool will find a random meal.
+    This tool will find a random meal. The context is kind of useless but required, so feel free to provide any value.
     It is useful whenever the user asks for meal ideas but doesn't have a specific ingredient in mind.
 
     :return: A randomly selected meal.
